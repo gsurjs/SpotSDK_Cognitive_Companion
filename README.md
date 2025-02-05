@@ -22,20 +22,6 @@ A speech-to-speech AI client for the Boston Dynamics Spot robot. This project al
 Run the Spot AI client:
     python main.py
 
-## 📁 Project Tree
-
-SpotSDK-Cognitive-Companion/
-│── main.py
-│── README.md
-│── requirements.txt
-│── spot_ai/
-│   ├── speech_recognition.py
-│   ├── vision_processing.py
-│   ├── audio_processing.py
-│   ├── camera_io.py
-│   ├── robot_control.py
-│   ├── config.py
-
 ## 🛠️ Dependencies
 
 Python 3.6+
