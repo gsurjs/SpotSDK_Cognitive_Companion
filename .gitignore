@@ -1,0 +1,18 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore OS files
+.DS_Store
+
+# Ignore compiled Python files
+*.egg-info/
