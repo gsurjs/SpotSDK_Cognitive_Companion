@@ -1,0 +1,29 @@
+# Boston Dynamics Spot SDK
+bosdyn-client
+bosdyn-api
+bosdyn-mission
+bosdyn-choreography-client
+bosdyn-orbit
+
+# Speech Recognition & Audio Processing
+speechrecognition
+pyaudio
+faster-whisper
+pyttsx3
+
+# Machine Learning & AI
+openai
+google-generativeai
+groq
+
+# Image & Video Processing
+opencv-python
+pillow
+
+# System Utilities
+pyperclip
+numpy
+wave
+
+# Testing & Development
+pytest
