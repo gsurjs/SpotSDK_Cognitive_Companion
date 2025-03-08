@@ -1,29 +1,24 @@
-# Boston Dynamics Spot SDK
-bosdyn-client
-bosdyn-api
-bosdyn-mission
-bosdyn-choreography-client
-bosdyn-orbit
+# Core dependencies
+bosdyn-client>=3.3.0
+bosdyn-api>=3.3.0
+groq>=0.4.0
+faster-whisper>=0.9.0
+google-generativeai>=0.3.0
+pyttsx3>=2.90
+openai>=1.0.0  # Included for potential OpenAI TTS use
 
-# Speech Recognition & Audio Processing
-speechrecognition
-pyaudio
-faster-whisper
-pyttsx3
+# Image processing
+Pillow>=10.0.0
+numpy>=1.24.0
 
-# Machine Learning & AI
-openai
-google-generativeai
-groq
+# Audio processing
+pyaudio>=0.2.13
+wave>=0.0.2
 
-# Image & Video Processing
-opencv-python
-pillow
+# Utilities
+pyperclip>=1.8.2
+argparse>=1.4.0
 
-# System Utilities
-pyperclip
-numpy
-wave
-
-# Testing & Development
-pytest
+# Optional: For development
+pytest>=7.0.0
+black>=23.0.0
