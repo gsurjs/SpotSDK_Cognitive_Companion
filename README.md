@@ -24,7 +24,7 @@ This repository contains a Python client that integrates the Boston Dynamics Spo
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/spot-ai-client.git
+git clone https://github.com/gsurjs/spot-ai-client.git
 cd spot-ai-client
 ```
 
