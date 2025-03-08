@@ -1,18 +1,83 @@
-# Ignore Python cache files
+# Sensitive data from Spot robot
+*.wav
+*.mp3
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.avi
+*.webm
+screenshot.jpg
+webcam.jpg
+spot_audio.wav
+spot_camera.jpg
+
+# Temporary directories
+temp/
+tmp/
+.tmp/
 __pycache__/
-*.pyc
-*.pyo
 
-# Ignore virtual environments
-venv/
+# Environment and config files with sensitive information
 .env
+config.ini
+*.config
+credentials.json
+secrets.json
+.bosdyn/
+api_keys.py
 
-# Ignore log files
-logs/
-*.log
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
 
-# Ignore OS files
-.DS_Store
+# Python bytecode
+*.py[cod]
+*$py.class
+*.so
+.Python
 
-# Ignore compiled Python files
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
+.installed.cfg
+*.egg
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+logs/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
