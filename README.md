@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ### 4. Set Up API Keys
 
-Edit the `spot_ai_client.py` file to include your API keys:
+Edit the `speech-to-speechAI.py` file to include your API keys:
 
 ```python
 groq_client = Groq(api_key="YOUR_GROQ_API_KEY")
@@ -72,7 +72,7 @@ There are two ways to authenticate with the robot:
 #### 1. Using command-line credentials:
 
 ```bash
-python spot_ai_client.py --hostname 192.168.80.3 --username your_username --password your_password
+python speech-to-speechAI.py --hostname 192.168.80.3 --username your_username --password your_password
 ```
 
 #### 2. Using the .bosdyn credential store (recommended for development):
@@ -80,7 +80,7 @@ python spot_ai_client.py --hostname 192.168.80.3 --username your_username --pass
 If you've previously authenticated with the robot using the Boston Dynamics SDK tools, you can use:
 
 ```bash
-python spot_ai_client.py --hostname 192.168.80.3
+python speech-to-speechAI.py --hostname 192.168.80.3
 ```
 
 This method relies on credentials stored in the `.bosdyn` folder in your home directory.
@@ -90,7 +90,7 @@ This method relies on credentials stored in the `.bosdyn` folder in your home di
 If your Spot robot is at a different IP address:
 
 ```bash
-python spot_ai_client.py --hostname 192.168.X.X --username your_username --password your_password
+python speech-to-speechAI.py --hostname 192.168.X.X --username your_username --password your_password
 ```
 
 ### Interacting with Spot
@@ -132,7 +132,7 @@ Boston Dynamics Spot robots require authentication to access the API. There are 
 You can provide credentials directly when running the script:
 
 ```bash
-python spot_ai_client.py --hostname 192.168.80.3 --username your_username --password your_password
+python speech-to-speechAI.py --hostname 192.168.80.3 --username your_username --password your_password
 ```
 
 **Note**: Providing passwords on the command line is not secure for production environments. Consider using environment variables or the credential store method.
@@ -148,7 +148,7 @@ The Boston Dynamics SDK provides a credential store mechanism that securely save
 
 2. Then run the client without explicit credentials:
    ```bash
-   python spot_ai_client.py --hostname 192.168.80.3
+   python speech-to-speechAI.py --hostname 192.168.80.3
    ```
 
 This stores your credentials in the `~/.bosdyn` directory and is the recommended approach for development.
